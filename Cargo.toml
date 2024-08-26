@@ -1,0 +1,8 @@
+[package]
+name = "pgs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lodepng = "3.10.5"
+winnow = { version = "0.6.18", features = ["simd"] }
